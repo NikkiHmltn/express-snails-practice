@@ -2,6 +2,15 @@
 
 //STEP TWO: SET UP EXPRESS AND SANITY CHECK WITH PORT LISTENING AND HOMEPAGE HELLO
 
+//STEP THRE: CONNECT DB TO MODELS TO GET ALL SNAILS, THEN BRING THAT DATA ALL THE WAY DOWN TO THE SNAILS PAGE
+
+//STEP FOUR: MAKE A NEW ROUTE FOR :ID, PASS ID INTO SNAILS LINK
+
+//STEP FIVE: FOLLOW THE DATA UP FROM ROUTE TO CONTROLLER TO MODEL TO GET 1 SNAIL
+
+//STEP SIX: MAKE 404 ROUTE FOR ALL OTHER LINKS
+
+
 
 //EXTERNAL MODULES 
 const express = require('express');
@@ -24,11 +33,11 @@ app.use("/public", express.static(__dirname + '/public'))
 //show snails route
 app.use('/snails', require("./routes/snails"))
 //render the home routes
-app.use("/", (req, res) => {
+app.get("/", (req, res) => {
     res.render("home")
 })
-//all other routes that arent home or /snails
-app.use((req, res) => {
+//render 404 is any other route is hit
+app.get('*', (req, res) => {
     res.render("404")
 })
 
