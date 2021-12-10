@@ -1,0 +1,40 @@
+.single-snail-div {
+    text-align: center;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.single-snail-div > img {
+    width: 100%;
+}
+
+.snail-header {
+    text-align: center;
+    padding: 2%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.snail-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.snailParade {
+    font-size: 30px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.snailParade > a > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}

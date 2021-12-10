@@ -34,7 +34,7 @@ const snails = [
     {
         name: 'Geography Cones',
         scientificName: 'Conus geographus',
-        image: '',
+        image: 'https://media.istockphoto.com/photos/textile-cone-shell-picture-id157582260?k=20&m=157582260&s=612x612&w=0&h=7MN1yTBoW0vNO20WNEK9ksNJ7KTceGObuZKw_ZVtWRU=',
         shellLength: '10 to 15 cm (4 to 6 in)',
         habitat: 'Red Sea, Indian Ocean, Indo-Pacific Reefs',
         info: " Its shell has a distinctive mottled appearance and is highly coveted among collectors, but what really sets it apart from other snails? It's the most venomous snail — and, in fact, one of the most venomous creatures — in the world. It fires a complex concoction of toxins via a harpoonlike tooth propelled from an extendable proboscis at speeds of up to 400 mph.",
